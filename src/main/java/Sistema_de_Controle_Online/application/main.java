@@ -15,5 +15,15 @@ public class main {
         compra.calcularFrete();
 
         compra.finalizarCompra();
+
+        System.out.println("Resumo da Compra ");
+
+        System.out.println("Nome: " + compra.getNome());
+        System.out.println("CPF: " + compra.getCpf());
+        System.out.println("Endereço: " + compra.getEndereco());
+        System.out.println("Pagamento: " + compra.getPagamento());
+
+        System.out.println("Frete: R$ " + compra.getFrete());
+        System.out.println("Total: R$ " + compra.getTotal());
     }
 }

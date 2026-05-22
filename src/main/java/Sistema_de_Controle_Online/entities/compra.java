@@ -3,15 +3,64 @@ package Sistema_de_Controle_Online.entities;
 import java.util.Scanner;
 
 public class compra {
-    String nome;
-    String cpf;
-    String endereco;
-    String pagamento;
 
-    double total = 0;
-    double frete = 0;
+    private String nome;
+    private String cpf;
+    private String endereco;
+    private String pagamento;
 
-    public void  adicionarProdutos() {
+    private double total = 0;
+    private double frete = 0;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
+
+    public String getPagamento() {
+        return pagamento;
+    }
+
+    public void setPagamento(String pagamento) {
+        this.pagamento = pagamento;
+    }
+
+    public double getTotal() {
+        return total;
+    }
+
+    public void setTotal(double total) {
+        this.total = total;
+    }
+
+    public double getFrete() {
+        return frete;
+    }
+
+    public void setFrete(double frete) {
+        this.frete = frete;
+    }
+
+    public void adicionarProdutos() {
 
         Scanner sc = new Scanner(System.in);
 
@@ -25,7 +74,7 @@ public class compra {
             System.out.print("Digite a quantidade: ");
             int quantidade = sc.nextInt();
 
-            total = total + (valorProduto * quantidade);
+            setTotal(getTotal() + (valorProduto * quantidade));
 
             System.out.print("Deseja adicionar outro produto? (s/n): ");
             continuar = sc.next();
@@ -40,33 +89,33 @@ public class compra {
         sc.nextLine();
 
         System.out.print("Digite seu nome: ");
-        nome = sc.nextLine();
+        setNome(sc.nextLine());
 
         System.out.print("Digite seu CPF: ");
-        cpf = sc.nextLine();
+        setCpf(sc.nextLine());
 
         System.out.print("Digite seu endereço: ");
-        endereco = sc.nextLine();
+        setEndereco(sc.nextLine());
 
         System.out.print("Forma de pagamento: ");
-        pagamento = sc.nextLine();
+        setPagamento(sc.nextLine());
     }
 
     public void calcularFrete() {
 
-        if (total > 500) {
+        if (getTotal() > 500) {
 
             System.out.println("Frete grátis!");
 
         } else {
 
-            frete = 25;
-            total = total + frete;
+            setFrete(25);
+            setTotal(getTotal() + getFrete());
 
             System.out.println("Frete de R$25 adicionado.");
         }
 
-        System.out.println("Valor total: R$ " + total);
+        System.out.println("Valor total: R$ " + getTotal());
     }
 
     public void finalizarCompra() {
@@ -79,7 +128,6 @@ public class compra {
         if (aprovado.equalsIgnoreCase("s")) {
 
             int numeroPedido;
-
             numeroPedido = (int) (Math.random() * 1000);
 
             System.out.println("Número do pedido: " + numeroPedido);
