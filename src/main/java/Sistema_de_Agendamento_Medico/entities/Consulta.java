@@ -1,4 +1,4 @@
-package Sistema_de_Agendamento_Médico.entities;
+package Sistema_de_Agendamento_Medico.entities;
 
 public class Consulta {
 

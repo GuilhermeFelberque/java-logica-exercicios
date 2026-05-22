@@ -1,7 +1,7 @@
-package Sistema_de_Agendamento_Médico.application;
+package Sistema_de_Agendamento_Medico.application;
 
-import Sistema_de_Agendamento_Médico.entities.Consulta;
-import Sistema_de_Agendamento_Médico.entities.Paciente;
+import Sistema_de_Agendamento_Medico.entities.Consulta;
+import Sistema_de_Agendamento_Medico.entities.Paciente;
 
 import java.util.Scanner;
 
