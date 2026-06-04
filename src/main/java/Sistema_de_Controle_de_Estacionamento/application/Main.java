@@ -1,8 +1,6 @@
 package Sistema_de_Controle_de_Estacionamento.application;
 
 import Sistema_de_Controle_de_Estacionamento.entities.Estacionamento;
-import Sistema_de_Controle_de_Estacionamento.entities.Veiculo;
-
 import java.util.Scanner;
 
 public class Main {

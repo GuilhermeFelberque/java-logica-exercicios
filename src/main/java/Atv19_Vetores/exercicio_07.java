@@ -15,5 +15,7 @@ public class exercicio_07 {
             if (n == numeros[i]) {
                 verific = true;
                 break;
+            }
+        }
     }
 }
