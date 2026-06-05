@@ -1,4 +1,4 @@
-package Sistema_de_Delivery_de_Restaurante.entities;
+package Sistema_De_Delivery_De_Restaurante.entities;
 
 public class Usuario {
     private String login;
@@ -15,7 +15,6 @@ public class Usuario {
     }
 
     public String getSenha() {
-
         return senha;
     }
 }

@@ -1,15 +1,15 @@
-package Sistema_de_Delivery_de_Restaurante.aplication;
+package Sistema_De_Delivery_De_Restaurante.aplication;
 
-import Sistema_de_Delivery_de_Restaurante.entities.Autenticador;
-import Sistema_de_Delivery_de_Restaurante.entities.Pagamento;
-import Sistema_de_Delivery_de_Restaurante.entities.Produto;
-import Sistema_de_Delivery_de_Restaurante.entities.Usuario;
+import Sistema_De_Delivery_De_Restaurante.entities.Autenticador;
+import Sistema_De_Delivery_De_Restaurante.entities.Pagamento;
+import Sistema_De_Delivery_De_Restaurante.entities.Produto;
+import Sistema_De_Delivery_De_Restaurante.entities.Usuario;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class main {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner texto = new Scanner(System.in);
         Usuario usuario = new Usuario("carlos@email.com", "123456");
         Autenticador autenticador = new Autenticador(usuario);
