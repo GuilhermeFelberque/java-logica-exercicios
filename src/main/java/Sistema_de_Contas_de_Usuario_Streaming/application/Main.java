@@ -1,7 +1,7 @@
-package Sistema_de_Contas_de_Usuário_Streaming.application;
-import Sistema_de_Contas_de_Usuário_Streaming.entities.ContaStreaming;
-import Sistema_de_Contas_de_Usuário_Streaming.entities.PlanoPadrao;
-import Sistema_de_Contas_de_Usuário_Streaming.entities.PlanoPremium;
+package Sistema_de_Contas_de_Usuario_Streaming.application;
+import Sistema_de_Contas_de_Usuario_Streaming.entities.ContaStreaming;
+import Sistema_de_Contas_de_Usuario_Streaming.entities.PlanoPadrao;
+import Sistema_de_Contas_de_Usuario_Streaming.entities.PlanoPremium;
 
 import java.util.Scanner;
 public class Main {

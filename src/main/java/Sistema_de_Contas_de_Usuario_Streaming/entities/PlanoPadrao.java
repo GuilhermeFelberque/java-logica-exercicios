@@ -1,4 +1,4 @@
-package Sistema_de_Contas_de_Usuário_Streaming.entities;
+package Sistema_de_Contas_de_Usuario_Streaming.entities;
 
 public class PlanoPadrao extends ContaStreaming {
     private String qualidadeVideo = "Full HD";
