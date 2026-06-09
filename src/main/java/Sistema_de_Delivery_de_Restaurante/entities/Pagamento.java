@@ -1,4 +1,4 @@
-package Sistema_De_Delivery_De_Restaurante.entities;
+package Sistema_de_Delivery_de_Restaurante.entities;
 
 public enum Pagamento {
     PIX,

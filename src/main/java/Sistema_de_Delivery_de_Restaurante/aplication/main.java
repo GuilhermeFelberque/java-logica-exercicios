@@ -1,9 +1,9 @@
-package Sistema_De_Delivery_De_Restaurante.aplication;
+package Sistema_de_Delivery_de_Restaurante.aplication;
 
-import Sistema_De_Delivery_De_Restaurante.entities.Autenticador;
-import Sistema_De_Delivery_De_Restaurante.entities.Pagamento;
-import Sistema_De_Delivery_De_Restaurante.entities.Produto;
-import Sistema_De_Delivery_De_Restaurante.entities.Usuario;
+import Sistema_de_Delivery_de_Restaurante.entities.Autenticador;
+import Sistema_de_Delivery_de_Restaurante.entities.Pagamento;
+import Sistema_de_Delivery_de_Restaurante.entities.Produto;
+import Sistema_de_Delivery_de_Restaurante.entities.Usuario;
 
 import java.util.ArrayList;
 import java.util.Scanner;
