@@ -1,6 +1,6 @@
-package Controle_Inteligente.application;
+package Controle_Inteligente.entities.Controle_Inteligente.application;
 
-import Controle_Inteligente.entities.Produto;
+import Controle_Inteligente.entities.Controle_Inteligente.entities.Produto;
 
 import java.util.ArrayList;
 import java.util.Scanner;

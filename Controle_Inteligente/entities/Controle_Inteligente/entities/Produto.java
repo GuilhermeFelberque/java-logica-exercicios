@@ -1,4 +1,4 @@
-package Controle_Inteligente.entities;
+package Controle_Inteligente.entities.Controle_Inteligente.entities;
 
 public class Produto {
     private String nome;
